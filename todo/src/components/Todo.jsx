@@ -2,7 +2,7 @@ import React from 'react'
 
 const Todo = ({ todo }) => {
   return (
-    <div className="todo">
+    <div className="todo" key={todo.id}>
     <div className="content">
       <p>{todo.text}</p>
       <p className='category'>
